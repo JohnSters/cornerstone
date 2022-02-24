@@ -1,6 +1,6 @@
 <template>
   <v-app-bar>
-
+    <!-- App Bar for the front page.  -->
   </v-app-bar>
 </template>
 
