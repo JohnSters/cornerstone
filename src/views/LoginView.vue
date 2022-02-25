@@ -6,7 +6,7 @@
 import AdminLogin from "../components/administration/AdminLogin.vue";
 
 export default {
-  name: "AdminPage",
+  name: "Login",
 
   components: {
     AdminLogin

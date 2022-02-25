@@ -1,10 +1,12 @@
 <template>
-  <div>This is the home page</div>
+  <v-container>
+    This is the admin page
+  </v-container>
 </template>
 
 <script>
 export default {
-  name: "Home"
+  name: "BackendView"
 }
 </script>
 
