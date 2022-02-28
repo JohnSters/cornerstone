@@ -12,5 +12,9 @@
 
 export default {
   name: 'MainAppBar',
+
+  methods: {
+
+  }
 }
 </script>

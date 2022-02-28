@@ -1,15 +1,18 @@
 <template>
+  <MainAppBar />
   <AdminLogin />
 </template>
 
 <script>
 import AdminLogin from "../components/administration/AdminLogin.vue";
+import MainAppBar from "../components/app-bars/MainAppBar.vue";
 
 export default {
   name: "Login",
 
   components: {
-    AdminLogin
+    MainAppBar,
+    AdminLogin,
   }
 }
 </script>
