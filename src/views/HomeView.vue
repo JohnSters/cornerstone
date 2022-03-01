@@ -1,25 +1,50 @@
 <template>
   <MainAppBar />
-  <v-container>
-    <v-row>
-      <v-col
-          class="mt-3"
-          v-for="n in 9"
-          :key="n"
-          cols="4"
-      >
-        <v-card-title primary-title class="justify-center">
-          <div>
-            <h3 class="headline pink--text text--accent-2">Lorum</h3>
-            <div>Lorem ipsum dolor sit amet.</div>
-          </div>
-        </v-card-title>
-        <v-card-actions class="justify-center">
-          <v-btn flat color="green">use backend</v-btn>
-        </v-card-actions>
-      </v-col>
-    </v-row>
-  </v-container>
+  <v-main>
+    <v-container>
+      <v-row>
+        <v-col cols="2">
+          <v-sheet rounded="lg">
+            <v-list color="transparent">
+              <v-list-item
+                  v-for="n in 5"
+                  :key="n"
+                  link
+              >
+                <v-list-item-content>
+                  <v-list-item-title>
+                    List Item {{ n }}
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+
+              <v-divider class="my-2"></v-divider>
+
+              <v-list-item
+                  link
+                  color="grey lighten-4"
+              >
+                <v-list-item-content>
+                  <v-list-item-title>
+                    Refresh
+                  </v-list-item-title>
+                </v-list-item-content>
+              </v-list-item>
+            </v-list>
+          </v-sheet>
+        </v-col>
+
+        <v-col>
+          <v-sheet
+              min-height="70vh"
+              rounded="lg"
+          >
+            <!--  -->
+          </v-sheet>
+        </v-col>
+      </v-row>
+    </v-container>
+  </v-main>
 </template>
 
 <script>
