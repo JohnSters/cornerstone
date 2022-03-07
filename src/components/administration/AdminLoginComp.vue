@@ -16,7 +16,6 @@
         <v-divider></v-divider>
         <v-card-actions>
           <v-btn color="info" to="/admin">Login</v-btn>
-          <v-btn color="success">Create new user</v-btn>
         </v-card-actions>
       </v-card>
     </v-container>

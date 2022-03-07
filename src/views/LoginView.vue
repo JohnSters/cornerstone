@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import AdminLogin from "../components/administration/AdminLogin.vue";
+import AdminLogin from "../components/administration/AdminLoginComp.vue";
 import MainAppBar from "../components/app-bars/MainAppBar.vue";
 
 export default {

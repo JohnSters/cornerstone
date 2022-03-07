@@ -13,7 +13,7 @@
           <v-spacer />
           <div>
             <v-btn to="/login">Login</v-btn>
-            <v-btn to="/create">Create</v-btn>
+            <v-btn to="/contact">Contact</v-btn>
           </div>
         </v-row>
       </v-container>
@@ -31,6 +31,5 @@ export default {
 
 <style>
 .v-container {
-  max-width: 60% !important;
 }
 </style>
